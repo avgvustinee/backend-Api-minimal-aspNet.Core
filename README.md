@@ -1,4 +1,6 @@
 Game Store Backend Application
+
+
 Welcome to the Game Store backend application! This project is a minimal API built using ASP.NET Core, designed to manage a game store's backend functionalities.
 
 Table of Contents
