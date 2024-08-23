@@ -4,17 +4,23 @@ Game Store Backend Application
 Welcome to the Game Store backend application! This project is a minimal API built using ASP.NET Core, designed to manage a game store's backend functionalities.
 
 Table of Contents
+
+
 About the Project
 Technologies Used
 Getting Started
 Features
 API Endpoints
+
+
 Future Improvements
 Contributing
 License
 Contact
+
 About the Project
-This backend application is designed to support a game store, managing games, orders, customers, and more. The project is part of my journey to learn and build minimal APIs using ASP.NET Core. The focus is on simplicity, scalability, and efficiency.
+This backend application is designed to support a game store, managing games, orders, customers, and more. 
+The project is part of my journey to learn and build minimal APIs using ASP.NET Core. The focus is on simplicity, scalability, and efficiency.
 
 Technologies Used
 
@@ -32,8 +38,8 @@ A code editor like Visual Studio or Visual Studio Code.
 Installation
 Clone the repo:
 
-Copy code
 git clone https://github.com/codewithgusti/github.com/codewithgusti/backend-Api-minimal-aspNet.Core.git
+
 Navigate to the project directory:
 
 Install the required packages:
@@ -63,26 +69,26 @@ GET /api/games/{id}: Get a specific game
 POST /api/games: Add a new game
 PUT /api/games/{id}: Update a game
 DELETE /api/games/{id}: Delete a game
-Customers
 
-GET /api/customers: List all customers
-GET /api/customers/{id}: Get a specific customer
-POST /api/customers: Add a new customer
-PUT /api/customers/{id}: Update customer information
-DELETE /api/customers/{id}: Delete a customer
-Orders
+Genres
 
-GET /api/orders: List all orders
-GET /api/orders/{id}: Get a specific order
-POST /api/orders: Create a new order
-PUT /api/orders/{id}: Update an order
-DELETE /api/orders/{id}: Cancel an order
+GET /api/games: List all genres
+
+
+
 Future Improvements
+
+
 Authentication & Authorization: Implement JWT-based authentication.
+
 Inventory Management: Track stock levels and alert when running low.
+
 Payment Integration: Connect with payment gateways for order processing.
+
 Logging & Monitoring: Add robust logging and monitoring tools.
+
 Contributing
+
 Contributions are welcome! Please open an issue or submit a pull request with any improvements or bug fixes.
 
 License
@@ -92,5 +98,5 @@ Contact
 For any inquiries or questions, feel free to reach out:
 
 Your Name
-Email: your.email@example.com
-GitHub: your-username
+Email: augustineshoks7@gmail.com
+GitHub: codewithgusti
